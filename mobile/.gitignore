@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Node / Expo
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+.npm/
+.metro-health-check*
+
+# Build outputs
+build/
+**/build/
+dist/
+**/dist/
+coverage/
+**/coverage/
+*.apk
+*.aab
+*.ipa
+*.app
+*.jsbundle
+
+# Android
+**/.gradle/
+**/android/local.properties
+**/android/*.iml
+**/android/**/*.iml
+**/android/.idea/
+**/android/.cxx/
+**/android/app/build/
+**/android/build/
+**/android/**/*.keystore
+**/android/**/*.hprof
+
+# iOS / Xcode
+**/ios/Pods/
+**/ios/build/
+**/ios/*.xcuserstate
+**/ios/*.xccheckout
+**/ios/*.moved-aside
+**/ios/DerivedData/
+**/ios/*.hmap
+**/ios/*.ipa
+**/ios/*.xcworkspace
+**/*.xcuserstate
+
+# Ruby / CocoaPods
+**/vendor/bundle/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# environment files
+.env
+.env.*
+
+# other generated files
+*.log

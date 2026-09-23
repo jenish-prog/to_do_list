@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Task Manager",
+    "slug": "task-manager",
+    "version": "1.0.0",
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ],
+    "android": {
+      "package": "com.anonymous.taskmanager"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.taskmanager"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8cefab81-c0d0-4006-a91c-6c21e6d266a2"
+      }
+    }
+  }
+}
